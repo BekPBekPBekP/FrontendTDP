@@ -47,4 +47,7 @@ console.log(` The total bill is £${totalMoney} the remaining amount to be paid 
 
 console.log("Hi");
 
+for(let i = 0; i < 3; i++) {
+    console.log(`i = ${i}`);
+}
 
