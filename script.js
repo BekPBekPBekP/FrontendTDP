@@ -51,3 +51,38 @@ for(let i = 0; i < 3; i++) {
     console.log(`i = ${i}`);
 }
 
+let strictA = true;
+let strictB = 1;
+
+console.log(strictA == strictB);
+console.log(strictA === strictB);
+
+console.log(strictA != strictB);
+console.log(strictA !== strictB);
+
+
+let age = 30
+
+if (age >= 18 && age <= 65) {
+    console.log("Satisfied");
+} else if (age < 18) {
+    console.log("Underage");
+} else {
+    console.log("Over age limit");
+}
+
+age >= 18 && age <= 65 ? console.log("Satisfied") : console.log("Over age limit");
+
+age > 50 ? console.log("satisfied") : console.log("under age");
+
+
+for (let i = 1; i <=100; i++){
+if (i % 3==0 && i % 5==0) {
+    console.log("FizzBuzz");
+} else if (i % 3==0) {
+    console.log("Fizz");
+} else if (i % 5==0){
+    console.log("Buzz");
+} else {
+    console.log(i);
+} } 
