@@ -1,0 +1,14 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    }
+    
+    
+    button { 
+        text-align: center;
+        background: linear-gradient(to right, #db7093, #ffc0cb);
+        padding: 10px; 
+        margin: 10px;
+    
+    }
